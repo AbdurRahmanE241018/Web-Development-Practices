@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Admission Form</title>
+</head>
+<body style="text-align: center; color: tomato;">
+    <h2>Patient Admission Form</h2>
+    <form action="/submit-patient-info" method="post">
+        <label for="name">Patient Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="contact">Contact Number:</label><br>
+        <input type="tel" id="contact" name="contact" required><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" required></textarea><br><br>
+
+        <label for="condition">Medical Condition:</label><br>
+        <input type="text" id="condition" name="condition" required><br><br>
+
+        <label for="admissionDate">Date of Admission:</label><br>
+        <input type="date" id="admissionDate" name="admissionDate" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
