@@ -1,0 +1,52 @@
+h2:nth-child(5){
+    color: blueviolet;
+}
+h2:nth-child(2){
+    background-color: cadetblue;
+    color: whitesmoke;
+    font-size: 50px;
+}
+h2:first-child{
+    color: olive;
+}
+p::first-letter{
+    color: chartreuse;
+    background-color: cadetblue;
+    font-size: 50px;
+}
+p::first-line{
+    color: tan;
+    background-color:#004;
+    font-size: 40px;
+}
+.lg{
+    width: 300px;
+    height: 300px;
+   background: linear-gradient(teal,blue,orange,pink,green);
+   opacity:1;
+   text-align: center;
+   color: antiquewhite;
+}
+.rg{
+    color: aquamarine;
+    background-color: burlywood;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    background: radial-gradient(yellow,orange,blue,green,red,pink,black);
+}
+.shadow{
+    text-align: center;
+    background-color: teal;
+    font-size: 50px;
+    color: antiquewhite;
+    text-shadow:-20px -20px 3px palegreen  ;
+    padding-block: 50px;
+    border: 10px solid salmon;
+    box-shadow: 20px 20px  blue;
+    width: 80%;
+    height: 50%;
+}
+.pad{
+    padding: 400px;
+}

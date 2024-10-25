@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    color: firebrick;
+    background-color: lavender;
+}
+.t1{
+    height: 300px;
+    width: 400px;
+    background-color: cadetblue;
+    color: honeydew;
+    text-align: center;
+    margin: 100px auto;
+    font-size: 30px;
+    background: linear-gradient(teal,blue,orange,pink,green);
+   text-align: center;
+   color: antiquewhite;
+   position: relative;
+   transform: rotate(60deg);
+   padding-top: 50px;
+}
+.t1:hover{
+    background-color: yellowgreen;
+    transform: rotate(360deg);
+}
+h1:hover{
+    background-color: seagreen;
+    color: cadetblue;
+    transform:rotate(180deg);
+    padding: 50px 90px 180px;
+}
