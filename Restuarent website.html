@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body  bgcolor="lightgreen" 
+    
+    <header>
+        <h1>Welcome to My Restaurant</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Discover Our Delicious Menu</h2>
+        <p>Enjoy the best dishes crafted with passion and love.</p>
+        <img src="images/restaurant.jpg" alt="Restaurant Image">
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <h3>Appetizers</h3>
+            <p>Bruschetta - $8</p>
+            <p>Stuffed Mushrooms - $10</p>
+        </div>
+        <div class="menu-item">
+            <h3>Main Courses</h3>
+            <p>Grilled Salmon - $20</p>
+            <p>Steak - $25</p>
+        </div>
+        <div class="menu-item">
+            <h3>Desserts</h3>
+            <p>Cheesecake - $7</p>
+            <p>Tiramisu - $8</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>My Restaurant was founded in 2020 with a mission to provide the best dining experience. Our chefs use the freshest ingredients to create delicious meals that delight our customers.</p>
+        <img src="images/about.jpg" alt="About Us Image">
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>We would love to hear from you! Whether you have questions, feedback, or want to make a reservation, feel free to reach out.</p>
+        <p>Email: contact@myrestaurant.com</p>
+        <p>Phone: 123-456-7890</p>
+        <form id="contact-form">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Restaurant. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
