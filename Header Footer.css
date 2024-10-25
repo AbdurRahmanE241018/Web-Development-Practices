@@ -1,0 +1,144 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:rgb(237, 114, 114);
+}
+header{
+    width: 100%;
+    background-color:teal;
+    color: white;
+    display: flex;
+
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 70px bold;
+    margin-left: 20px;
+    padding: 10px;margin-top: 10px;
+    color:white;    
+}
+.logo:hover{
+    background-color: darkgreen;
+    transition: ease-in 1s;
+}
+.navbar{
+    display: flex;
+    padding-right: 200px;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    background-color:color-mix(in srgb-linear, color percentage, color percentage);
+    width: 170px;
+    border: 1px solid rgb(5, 246, 246);
+    height: 50px;
+    text-align: center;
+    float: left;
+    color: blue;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 50px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar ul li:hover{
+    background-color:rgb(105, 232, 26);
+    transition: all ease-in 1s;
+}
+.navbar ul ul{
+    display: none;
+}
+.navbar ul li:hover>ul{
+    display: block;
+}
+/* Header/navbar end*/
+
+/*Form start*/
+.form1{
+    background-color: rgb(123, 231, 123);
+    color:blue;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px 80px;
+    margin-top: 30px;
+    border-radius: 10%;
+    box-shadow: 2 4px 8px 4 ;
+
+    
+}
+.form1 input{
+    padding: 5px 50px;
+    border-color: rgb(18, 136, 175);
+    border-radius: 50px;
+}
+.form1 .btn{
+    font-weight: bold;
+
+}
+.copy{
+    color: coral;
+    font-size: 50px;
+    font-style: italic;
+}
+.copy:hover{
+    background-color: teal;
+    transition: all;
+    transition-duration: 1s;
+}
+
+
+
+
+
+
+
+
+/*Form end*/
+
+/* Footer part start */ 
+footer{
+    position:absolute;
+    bottom:0;
+    text-align: center;
+    background-color: cadetblue;
+    width: 100%;
+
+}
+.by h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+.text p{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+.icon i{
+    font-size: 45px;
+    position: relative;
+    top: -20px;
+    padding: 10px;
+}
+.copy{
+    height: 50px;
+    width: 100%;
+    background-color: bisque;
+line-height: 50px;
+font-size: 16px;
+}
