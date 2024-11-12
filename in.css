@@ -1,0 +1,42 @@
+/* Style for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for intro paragraph */
+.intro {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Style for section */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style for footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
