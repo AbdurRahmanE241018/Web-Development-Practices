@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #efe8e8;
+  }
+  .container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #ef7b70;
+  }
+  .circle {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #4285f4;
+    border-radius: 50%;
+  }
+  .circle.top-left { top: -20px; left: -20px; }
+  .circle.top-center { top: -20px; left: 40%;  }
+  .circle.top-right { top: -20px; right: -20px; }
+  .circle.middle-left { top: 50%; left: -20px; transform: translateY(-50%); }
+  .circle.middle-center { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+  .circle.middle-right { top: 50%; right: -20px; transform: translateY(-50%); }
+  .circle.bottom-left { bottom: -20px; left: -20px; }
+  .circle.bottom-center { bottom: -20px; left: 50%; transform: translateX(-50%); }
+  .circle.bottom-right { bottom: -20px; right: -20px; }
