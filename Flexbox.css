@@ -1,18 +1,15 @@
 .flexbox{
-    background-color: aqua;
-    font-size: 40px;
+    background-color: brown;
+    font-size: 35px;
     display: flex;
   /*  flex-wrap: wrap;
-    flex-direction: column;*/
+    flex-direction: column; */
     flex-flow: wrap row;
     justify-content: center;
-    height: 400px;
-    align-items: baseline;
-
+    align-items: center;
 }
-
 .flexbox > div{
-    background-color: chartreuse;
+    background-color: green;
     margin: 5px;
     padding: 5px;
     width: 100px;
